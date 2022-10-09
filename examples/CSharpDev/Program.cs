@@ -1,4 +1,5 @@
 ﻿using System;
+using CSharpDev.ComplexScenario;
 using CSharpDev.DataFeed;
 using CSharpDev.Features;
 using CSharpDev.HelloWorld;
@@ -9,7 +10,10 @@ namespace CSharpDev
     {
         static void Main(string[] args)
         {
-            HelloWorldExample.Run();
+            //ComplexScenarioExample.Run();
+            ComplexScenarioAlternativeExample.Run();
+
+            // HelloWorldExample.Run();
             // ClientDistributionExample.Run();
             // CustomStepExecControlExample.Run();
             // DataFeedTest.Run();
